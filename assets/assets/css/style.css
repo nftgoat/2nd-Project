@@ -1,0 +1,41 @@
+:root {
+    --primary: 
+    --secondary: 
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header {
+    padding: 5px;
+    color: aqua;
+    background-color: darkgray;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    width: 100%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: aqua;
+    padding: 20px 10px;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-right: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
