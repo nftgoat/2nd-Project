@@ -49,6 +49,7 @@ nav a {
     justify-content: center;
     background-image:  url('https://www.pcclean.io/wp-content/uploads/2020/4/BNrIVj.jpg');
     margin-left: -10px;
+    margin-right: -210px;
     margin-bottom: 30px;
 }
 
@@ -75,12 +76,14 @@ margin: 120px 0px 60px 930px;
     border-left: solid;
     padding-left: 30px;
     margin-top: 30px;
+    padding-bottom: 10px;
 }
 
 .pics2 {
     display: flex;
     margin-left: 300px;
     border-left: solid;
+    padding-bottom: 10px;
     padding-left: 30px;
 }
 
@@ -146,16 +149,16 @@ margin: 120px 0px 60px 930px;
 
 .about2 {
     margin-right: 960px;
-    margin-top: -630px;
+    margin-top: -520px;
     padding-left: 30px;
 }
 
 .work {
     margin-left: 90px;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .contact {
     margin-left: 30px;
-    margin-top: 450px;
+    margin-top: 360px;
 }
