@@ -12,7 +12,7 @@ header {
     display:flex;
     flex-wrap: wrap;
     margin-top: -30px;
-    margin-right: -400px;
+    margin-right: -600px;
     margin-left: -30px;
     font-size: 21px;
 }
@@ -47,9 +47,9 @@ nav a {
 .h2 {
     display: flex;
     justify-content: center;
-    background-image:  url('https://www.pcclean.io/wp-content/uploads/2020/4/BNrIVj.jpg');
+    background-image:  url('https://tse2.mm.bing.net/th?id=OIP.ZR1ivJsi5roRG5KGiFk0lQHaD-&pid=Api&P=0');
     margin-left: -10px;
-    margin-right: -210px;
+    margin-right: -600px;
     margin-bottom: 30px;
 }
 
@@ -59,14 +59,13 @@ color: rgb(57, 58, 58);
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 font-size: 30px;
 background-color: rgb(144, 243, 243);
-padding: 0px 15px 0px 15px;
+padding: 0px 15px 6px 15px;
 margin: 120px 0px 60px 930px;
 }
 
 .about {
     display: flex;
     margin-left: 300px;
-    border-left: solid;
     padding-left: 30px;
 }
 
@@ -148,17 +147,31 @@ margin: 120px 0px 60px 930px;
 }
 
 .about2 {
-    margin-right: 960px;
-    margin-top: -520px;
-    padding-left: 30px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -570px;
+    border-style: solid;
+    border-left: 5px;
+    border-top: 5px;
+    border-bottom: 5px;
+    text-align: right;
+    padding-right: 24px;
 }
 
 .work {
-    margin-left: 90px;
-    margin-top: 120px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -400px;
 }
 
 .contact {
-    margin-left: 30px;
-    margin-top: 360px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-style: solid;
+    border-left: 5px;
+    border-top: 5px;
+    border-bottom: 5px;
+    text-align: right;
+    padding-right: 30px;
 }
