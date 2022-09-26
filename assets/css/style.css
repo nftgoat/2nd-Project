@@ -63,13 +63,13 @@ padding: 0px 15px 6px 15px;
 margin: 120px 0px 60px 930px;
 }
 
-.about {
+#About-Me {
     display: flex;
     margin-left: 300px;
     padding-left: 30px;
 }
 
-.pics1 {
+#Work {
     display: flex;
     margin-left: 300px;
     border-left: solid;
@@ -86,54 +86,33 @@ margin: 120px 0px 60px 930px;
     padding-left: 30px;
 }
 
-.pics3 {
+#Resume {
     display: flex;
     margin-left: 300px;
     border-left: solid;
     padding-left: 30px;
 }
 
-.info {
+#Contact-Me {
     display: flex;
     justify-content: flex-start;
     font-weight: 600;
     font-size: 18px;
-    margin-top: 60px;
-    padding-bottom: 60px;
+    margin-top: 90px;
     color: rgb(57, 58, 58);
 }
 
 .number {
     margin-left: 420px;
     border-bottom: solid;
-    padding-bottom:18px;
+    padding-bottom:10px;
     text-align: center;
 }
 
-.email {
+.info2 {
     margin-left: 120px;
     border-bottom: solid;
-    padding-bottom:18px;
-}
-
-.Github {
-    margin-left: 120px;
-    border-bottom: solid;
-    padding-bottom:18px;
-    text-align: center;
-}
-
-.twitter {
-    margin-left: 120px;
-    border-bottom: solid;
-    padding-bottom:18px;
-    text-align: center;
-}
-
-.spotify {
-    margin-left: 120px;
-    border-bottom: solid;
-    padding-bottom:18px;
+    padding-bottom:10px;
     text-align: center;
 }
 
