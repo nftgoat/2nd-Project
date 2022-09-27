@@ -1,10 +1,11 @@
+/* This syles the entire body */
 body {
     font-size: 21px;
     display: flex;
     flex-direction: column;
     background-color: azure;
 }
-
+/* This styles the main header */
 header {
     color:rgb(57, 58, 58);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -15,6 +16,7 @@ header {
     margin-left: -30px;
     font-size: 21px;
 }
+/* This styles the left header */
 h1 {
     border-style: solid;
     background-color: rgb(144, 243, 243);
@@ -23,7 +25,7 @@ h1 {
     margin-bottom: 6px;
 
 }
-
+/* This stles the navigation bar */
 nav {
     width: 100%;
      position: absolute;
@@ -42,7 +44,7 @@ nav a {
     display: flex;
     padding-right: 90px;
 }
-
+/* This styles the background image under the header */
 .h2 {
     display: flex;
     justify-content: center;
@@ -51,7 +53,7 @@ nav a {
     margin-right: -1000px;
     margin-bottom: 30px;
 }
-
+/* This syles the text on top of the background image */
 h2 {
 display: flex;
 color: rgb(57, 58, 58);
@@ -61,13 +63,13 @@ background-color: rgb(144, 243, 243);
 padding: 0px 15px 6px 15px;
 margin: 120px 0px 60px 930px;
 }
-
+/* This styles the about me section */
 #About-Me {
     display: flex;
     margin-left: 300px;
     padding-left: 30px;
 }
-
+/* These sections style the photos */
 #Work {
     display: flex;
     margin-left: 300px;
@@ -105,7 +107,7 @@ margin: 120px 0px 60px 930px;
     margin-right: 10px;
     border: solid aquamarine 5px;
 }
-
+/* These sections style the bottom section of the page */
 #Contact-Me {
     display: flex;
     justify-content: flex-start;
@@ -137,7 +139,7 @@ margin: 120px 0px 60px 930px;
     font-size: 48px;
     color: rgb(57, 58, 58);
 }
-
+/* These sections style the left side of the page */
 .about2 {
     position: absolute;
     margin-left: 130px;
@@ -167,7 +169,7 @@ margin: 120px 0px 60px 930px;
     text-align: right;
     padding-right: 30px;
 }
-
+/* This is a media query that makes the page more responsive */
 @media screen and (max-width: 900px) {
     main,
     nav {
